@@ -37,7 +37,7 @@ const PRODUCTS_LISTING_QUERY = graphql`
 const ProductsListing = () => {
   return (
     <div>
-      <h2 className="title">Level Up Products</h2>
+      <h2 className="title">All Products</h2>
       <StaticQuery
         query={PRODUCTS_LISTING_QUERY}
         render={({ products }) => {

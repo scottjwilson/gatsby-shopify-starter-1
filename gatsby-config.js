@@ -10,8 +10,8 @@ module.exports = {
     {
       resolve: "gatsby-source-shopify",
       options: {
-        shopName: "YOUR_SHOPNAME",
-        accessToken: "YOUR_TOKEN",
+        shopName: "ontheclock24",
+        accessToken: "da6a7a8e70380f457c4d49e80cd6f7f0",
         verbose: true,
         paginationSize: 30,
       },
